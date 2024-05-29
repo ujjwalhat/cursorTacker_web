@@ -10,3 +10,6 @@
     z-index: 99999999; /* so that it stays on top of all other elements */
     display: none;
   }
+  body {
+    font-family: "Sofia", sans-serif;
+  }
