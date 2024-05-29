@@ -13,3 +13,21 @@
   body {
     font-family: "Sofia", sans-serif;
   }
+
+  html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1{
+  font-size: 150px;
+}
