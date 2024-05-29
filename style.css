@@ -11,23 +11,20 @@
     display: none;
   }
   body {
-    font-family: "Sofia", sans-serif;
-  }
-
-  html, body {
+    display: table-cell;
+    vertical-align: middle;
+    
     height: 100%;
 }
 
 html {
     display: table;
     margin: auto;
+    height: 100%;
 }
 
-body {
-    display: table-cell;
-    vertical-align: middle;
-}
 
 h1{
+  font-family: "Sofia", sans-serif;
   font-size: 150px;
 }
